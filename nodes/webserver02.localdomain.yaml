@@ -1,0 +1,6 @@
+---
+nginx::puppet_array:
+  - Jan
+  - Willem
+  - Marcel
+  - Bol.com
