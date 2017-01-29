@@ -9,10 +9,10 @@ mod 'puppetlabs-ruby', '0.6.0'
 mod 'puppetlabs-stdlib', '4.15.0'
 mod 'puppetlabs-vcsrepo', '1.5.0'
 
-mod 'profiles',
+mod 'profile',
   :git => "git@github.com:puppet-presentation/profile.git"
 
  
-mod 'roles', 
+mod 'role', 
   :git => "git@github.com:puppet-presentation/role.git"
 
