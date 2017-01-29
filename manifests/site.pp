@@ -4,7 +4,7 @@ class{'r10k':
 }
 
 node default{
-notify{"Sorry, no role found for host ${::fqdn}.:}
+notify{"Sorry, no role found for host ${::fqdn}.":}
 }
 
 
