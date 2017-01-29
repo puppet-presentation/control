@@ -1,3 +1,4 @@
+mod 'nginx', :local => true
 mod 'puppetlabs-concat', '2.2.0'
 mod 'puppet-make', '1.1.0'
 mod 'puppetlabs-gcc', '0.3.0'
