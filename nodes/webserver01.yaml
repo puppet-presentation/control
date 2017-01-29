@@ -1,2 +1,9 @@
 ---
-abc:efg
+nginx::nginx_vhost:
+  'voorbeeld.hva':
+    servername: 'voorbeeld.hva'   
+    puppet_array:
+      - hey
+      - daar    
+      - lol
+      - hiera fff
