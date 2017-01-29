@@ -7,3 +7,9 @@ nginx::nginx_vhost:
       - daar    
       - lol
       - hiera fff
+   
+nginx::puppet_array:
+  - ik
+  - test
+  - ventjes
+  - ok
