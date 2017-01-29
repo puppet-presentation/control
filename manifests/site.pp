@@ -6,6 +6,9 @@ class{'r10k':
 node 'webserver01'{
   include role::webserver
 }
+node 'webserver02'{
+  include role::webserver
+}
 node default{
 notify{"Sorry, no role found for host:${::trusted['hostname']} in environment ${::environment}":}
 }
