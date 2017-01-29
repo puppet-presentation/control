@@ -4,9 +4,5 @@ class{'r10k':
 }}
 
 node default{
-notify{"Sorry, no role found for host.":} #${::trusted['hostname']}.":}
+notify{"Sorry, no role found for host:${::trusted['hostname']} in environment ${::environment}":}
 }
-
-
-
-
