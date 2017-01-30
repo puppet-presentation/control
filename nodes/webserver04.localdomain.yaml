@@ -1,0 +1,6 @@
+---
+nginx::puppet_array:
+  - Marcel
+  - Willem
+  - Jan
+  - Jos
