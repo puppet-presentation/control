@@ -9,7 +9,9 @@ node 'webserver01'{
 node 'webserver02'{
   include role::webserver
 }
-
+node 'webserver04'{
+  include role::webserver
+  }
 node 'webserver03'{
   include role::webserver
   notify{'Test succesful?':}
