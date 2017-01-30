@@ -1,0 +1,6 @@
+---
+nginx::puppet_array:
+  - ik
+  - test
+  - ventjes
+  - ok
