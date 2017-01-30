@@ -9,6 +9,11 @@ node 'webserver01'{
 node 'webserver02'{
   include role::webserver
 }
+
+node 'webserver03'{
+  include role::webserver
+  notify{'Test succesful?':}
+}
 node default{
 notify{"Sorry, no role found for host:${::trusted['hostname']} in environment ${::environment}":}
 }
